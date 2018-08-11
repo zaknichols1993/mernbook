@@ -1,0 +1,19 @@
+{
+  "name": "mernbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaknichols1993/mernbook.git"
+  },
+  "author": "Zak Nichols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaknichols1993/mernbook/issues"
+  },
+  "homepage": "https://github.com/zaknichols1993/mernbook#readme"
+}
