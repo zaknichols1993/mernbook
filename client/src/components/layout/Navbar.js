@@ -7,7 +7,7 @@ class Navbar extends Component {
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
             <div className="container">
               <Link className="navbar-brand" to="/">
-                DevConnector
+                MERNbook
               </Link>
               <button
                 className="navbar-toggler"
@@ -22,7 +22,7 @@ class Navbar extends Component {
                   <li className="nav-item">
                     <Link className="nav-link" to="/profiles">
                       {' '}
-                      Developers
+                      Profiles
                     </Link>
                   </li>
                 </ul>
@@ -40,7 +40,8 @@ class Navbar extends Component {
                 </ul>
               </div>
             </div>
-          </nav>        );
+          </nav>        
+        );
     }
 }
 
