@@ -79,7 +79,7 @@ router.post('/login', (req, res) => {
             if (isMatch) {
                 res.json({ msg: 'Success'});
                 // Create JWT Payload
-                const payload = { id: user.id, name: user.name, avatar: user.avatar };
+                const payload = { id: user.id, name: user.name };
                 // Sign Token
                 jwt.sign(
                     payload,
